@@ -26,7 +26,7 @@ function animateBot() {
 
 function animatePress(currentColour) {
     $("#" + currentColour).fadeOut(100).fadeIn(100);
-    var audio = new Audio("sounds/" + currentColour + ".mp3");
+    var audio = new Audio("" + currentColour + ".mp3");
     audio.play();
 }
 
